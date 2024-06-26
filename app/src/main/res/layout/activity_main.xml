@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonContainer"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Суретті таңдау" />
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFilter1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="С1" />
+
+            <Button
+                android:id="@+id/btnFilter2"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="С2" />
+
+            <Button
+                android:id="@+id/btnFilter3"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="С3" />
+
+            <Button
+                android:id="@+id/btnFilter4"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="С4" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddText"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:text="Мәтін қосу" />
+
+        <Button
+            android:id="@+id/btnGoToVideoEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:text="Видеоредакторға өту" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:text="Суретті сақтау" />
+
+    </LinearLayout>
+</RelativeLayout>

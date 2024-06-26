@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DAKNI</string>
+    <string name="choose_image">Суреттаңдау</string>
+    <string name="filter_1">Ф1</string>
+    <string name="filter_2">Ф2</string>
+    <string name="filter_3">Ф3</string>
+    <string name="filter_4">Ф4</string>
+    <string name="add_text">Мәтінқосу</string>
+    <string name="save_image">Суретсақтау</string>
+    <string name="go_to_video_editor">Видео редакторға өту</string>
+    <string name="choose_video">Видеоны таңдау</string>
+    <string name="start_video">Видеоны бастау</string>
+    <string name="pause_video">Пауза</string>
+    <string name="save_video">Видеоны сақтау</string>
+</resources>
